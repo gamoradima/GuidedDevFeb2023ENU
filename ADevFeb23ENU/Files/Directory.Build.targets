@@ -1,0 +1,19 @@
+<Project>
+	<ItemGroup Condition="'$(PkgPath)' != ''">
+		<Compile Remove="$(PkgPath)/ADevFeb23ENU/Assemblies/**" />
+		<Compile Remove="$(PkgPath)/ADevFeb23ENU/Data/**" />
+		<Compile Remove="$(PkgPath)/ADevFeb23ENU/SqlScripts/**" />
+		<Compile Remove="$(PkgPath)/ADevFeb23ENU/Schemas\**" />
+		<Compile Remove="$(PkgPath)/ADevFeb23ENU/Resources/**" />
+		<EmbeddedResource Remove="$(PkgPath)/ADevFeb23ENU/Assemblies/**" />
+		<EmbeddedResource Remove="$(PkgPath)/ADevFeb23ENU/Data/**" />
+		<EmbeddedResource Remove="$(PkgPath)/ADevFeb23ENU/SqlScripts/**" />
+		<EmbeddedResource Remove="$(PkgPath)/ADevFeb23ENU/Schemas/**" />
+		<EmbeddedResource Remove="$(PkgPath)/ADevFeb23ENU/Resources/**" />
+		<None Remove="$(PkgPath)/ADevFeb23ENU/Assemblies/**" />
+		<None Remove="$(PkgPath)/ADevFeb23ENU/Data/**" />
+		<None Remove="$(PkgPath)/ADevFeb23ENU/SqlScripts/**" />
+		<None Remove="$(PkgPath)/ADevFeb23ENU/Schemas/**" />
+		<None Remove="$(PkgPath)/ADevFeb23ENU/Resources/**" />
+  </ItemGroup>
+</Project>

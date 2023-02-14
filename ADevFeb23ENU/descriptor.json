@@ -1,0 +1,17 @@
+﻿{
+  "Descriptor": {
+    "UId": "7e661b9e-2e1b-2fc5-3b0e-5e3ae7587113",
+    "Name": "ADevFeb23ENU",
+    "Type": 1,
+    "ModifiedOnUtc": "\/Date(1676392677000)\/",
+    "Maintainer": "Customer",
+    "ProjectPath": "Files/ADevFeb23ENU.csproj",
+    "DependsOn": [
+      {
+        "UId": "d7559847-f38e-410c-baee-6f43bbe80d42",
+        "PackageVersion": "7.8.0",
+        "Name": "SalesEnterpriseSoftkey_ENU"
+      }
+    ]
+  }
+}
